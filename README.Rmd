@@ -5,8 +5,8 @@ date: "Wednesday, May 06, 2015"
 output: html_document
 ---
 
-The following code allows to reach an RMSE of respectively **1766973.99205** and 1592864.42967 on private and public leaderboard (**20th rank**).
-
+The following code allows to reach an RMSE of **1766973.99205** on private leaderboard (**20th rank**).
+On public leaderboard, it achieved a score of 1592864.42967 
 ***
 
 Packages used : *caret*, *dplyr*. 
