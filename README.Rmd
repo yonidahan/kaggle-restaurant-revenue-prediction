@@ -1,0 +1,28 @@
+---
+title: "README"
+author: "Yoni DAHAN"
+date: "Wednesday, May 06, 2015"
+output: html_document
+---
+
+The following code allows to reach an RMSE of respectively **1766973.99205** and 1592864.42967 on private and public leaderboard (**20th rank**).
+
+***
+
+Packages used : *caret*, *dplyr*. 
+
+***
+
+A random forest with *mtry=2* (number of variables randomly selected at each split) and *n.tree=5000* (number of trees) is performed.   
+Considering the small number of observations in *train*, the out-of-sample error and the parameter *mtry* have been estimated using a 10-fold cross-validation repeated 5 times.
+
+***
+
+The *train* and *test* datasets are available in my github repository and [here](https://www.kaggle.com/c/restaurant-revenue-prediction/data). 
+
+***
+
+Once the two datasets are in the **working directory**, the code can be run.   
+For more information about the data and the competition : [https://www.kaggle.com/c/restaurant-revenue-prediction](https://www.kaggle.com/c/restaurant-revenue-prediction) 
+
+
