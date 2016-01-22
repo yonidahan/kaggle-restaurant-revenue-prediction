@@ -8,6 +8,7 @@ train<-train[-c(17),] ##Removes the right outlier
 
 n<-nrow(train)
 
+
 test$revenue<-1
 data<-rbind(train, test)
 
