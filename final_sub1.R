@@ -37,7 +37,7 @@ model<-train(revenue~.,trControl=trainCtrl,n.tree=5000,
 #Predicts on Test
 pred<-predict(model,data[-c(1:n),])
 
-#Submission file
+#csv Submission file
 submission<-as.data.frame(cbind(seq(0,length(pred)-1,by=1),exp(pred)))
 colnames(submission)<-c("Id","Prediction")
 write.csv(submission,"submission.csv",row.names=FALSE)

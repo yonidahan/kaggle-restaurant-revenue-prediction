@@ -9,7 +9,7 @@ The following code allows to reach an RMSE of **1766973.99205** on private leade
 On public leaderboard, it achieved a score of 1592864.42967 
 ***
 
-Packages used : *caret*, *dplyr*. 
+Packages used : *caret*, *dplyr*
 
 ***
 
